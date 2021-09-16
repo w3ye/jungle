@@ -1,0 +1,9 @@
+section.dashboard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .panel {
+    width: 20%;
+  }
+}
