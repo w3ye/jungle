@@ -22,6 +22,8 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
     expect(page).to have_link href: '/products/1'
     visit '/products/1'
 
+    # test if the Apparel title exist
+    within("h1") { expect(page).to have_content("Apparel » ")}
     # the main container for content exists
     expect(page.find(".row").visible?).to be true
 
