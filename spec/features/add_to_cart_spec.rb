@@ -5,7 +5,7 @@ RSpec.feature "AddToCarts", type: :feature, js: true do
   before :each do
     @category = Category.create! name: 'Apparel'
 
-    1.times do |n|
+    10.times do |n|
       @category.products.create!(
         name: Faker::Hipster.sentence(3),
         description: Faker::Hipster.paragraph(4),
