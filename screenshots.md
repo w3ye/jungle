@@ -13,3 +13,7 @@
 ## Admin - Products
 
 ![Adming Products](./screenshots/admin-products.png)
+
+## Admin - View Sales
+
+![Sales](./screenshots/sales.png)
